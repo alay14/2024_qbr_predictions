@@ -2,7 +2,8 @@ library(espnscrapeR)
 library(gt)
 library(gtExtras)
 library(tidyverse)
-Sys.setenv(CFBD_API_KEY = "NUkGK5TLUuUMN5JchHizjGbvRW3di2qKBGwxuKnHumHuAicUspEwhNo5u9OG85H9")
+library(cfbfastR)
+Sys.setenv(CFBD_API_KEY = "") ######## ENTER YOUR OWN cfbfastR API KEY HERE #############
 
 # Getting the data
 
